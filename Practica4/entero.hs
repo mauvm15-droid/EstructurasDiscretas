@@ -1,7 +1,9 @@
 module Entero where
 import Auxiliar
 
---Multiplicación de enteros
+-- Multiplica dos enteros considerando sus signos.
+-- Ejemplo:
+-- multiEnt (Neg (Succ (Succ Zero))) (Succ (Succ Zero)) == Neg (Succ (Succ (Succ (Succ Zero))))
 
 multiEnt :: Ent -> Ent -> Ent
 multiEnt Zero _ = Zero
